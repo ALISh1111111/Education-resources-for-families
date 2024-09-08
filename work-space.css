@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background: #0502cc;
+}
+
+header {
+    background-color: #191a4e;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.faded{
+    font-size: 0.6cm;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.downloads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.file {
+    background: #0f0303;
+    border: 1px solid #0c0303;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(3, 5, 121, 0.945);
+    padding: 20px;
+    text-align: center;
+    width: 18cm;
+    height: 180px;
+}
+
+img {
+    width: 20cm;
+    height: 12cm;
+    margin-bottom: 10px;
+    margin-right: 720px;
+    padding: 0;
+}
+
+.container {
+    width: 22cm;
+    height: 6cm;
+    margin-left: 800px;
+    margin-top: -480px;
+    padding: 1cm;
+    box-sizing: border-box;
+    background-color: transparent;
+    backdrop-filter: blur 20px #494747;
+    border: 2px solid #000811;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    color: #333333;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.file{
+    margin-left: 800px;
+    margin-top: -270px;
+}
+
+.file p {
+    margin: 0;
+    font-size: 0.8cm;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+}
+.download-link{
+    text-decoration: none;
+    font-size: 0.5cm;
+    color: white;
+}
+
+.button1{
+    background-color: #0404a3;
+    border-radius: 3px;
+    width: 5cm;
+    height: 0.8;
+}

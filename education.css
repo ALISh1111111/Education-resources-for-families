@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: linear-gradient(45deg, #2d2d2d, #1a1a1a);
+}
+
+/* Create the animated background */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #020e44, #0a034e, #2d0869);
+    background-size: 600% 600%;
+    z-index: -1;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+/* Style the content on top of the background */
+.content {
+    text-align: center;
+    z-index: 1;
+    height: 100vh;
+}
+
+.meme {
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+
+.navbar {
+    display: flex;
+    box-shadow: 2px solid #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #23035f, #340144);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    color: #000;
+}
+
+a{
+    font-size: 1.2cm;
+    font-weight: bold;
+}
+
+.navbar .login-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar .login-button:hover {
+    background-color: #45a049;
+}
+
+.navbar .login-button:focus {
+    outline: none;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.content {
+    padding: 20px;
+}
+
+.container1 
+{
+    width: 800px;
+    height: 100vh;
+    box-shadow: 1px solid #fff;
+}
